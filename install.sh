@@ -1,9 +1,9 @@
 #!/bin/bash
 #Author: github.com/thelinuxchoice
-#Instagram: @thelinuxchoice
+#Instagram: @servh.444
 trap 'echo exiting cleanly...; exit 1;' SIGINT SIGTSTP
 
-checkroot() {
+checkroot() {1298
 
 if [[ "$(id -u)" -ne 0 ]]; then
    printf "\e[1;77mPlease, run this program as root!\n\e[0m"
